@@ -5,6 +5,7 @@ import drAhmed from "@/app/assets/images/dr-ahmed.svg";
 const DrAhmed = () => {
   return (
     <div
+      id="about"
       dir="rtl"
       className="bg-[#edecff] py-12 text-black spacing px-4 lg:px-[120px] lg:h-[803px]"
     >

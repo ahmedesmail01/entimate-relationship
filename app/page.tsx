@@ -8,6 +8,7 @@ import WhySec from "./components/WhySec";
 import TechSec from "./components/TechSec";
 import SubscribeSec from "./components/SubscribeSec";
 import Footer from "./components/Footer";
+// import PartComp from "./components/PartComp";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
       <TechSec />
       <SubscribeSec />
       <Footer />
+      {/* <div className="w-full h-[500px]">
+        <PartComp />
+      </div> */}
     </main>
   );
 }

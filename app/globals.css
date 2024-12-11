@@ -4,6 +4,7 @@
 
 html {
   font-family: var(--font-expo-arabic), sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {

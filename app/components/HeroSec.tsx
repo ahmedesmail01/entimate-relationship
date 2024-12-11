@@ -29,13 +29,15 @@ const HeroSec = () => {
         <h2 className="text-center text-2xl md:text-4xl font-semibold leading-snug">
           العلاقة الحميمية الجنسية
         </h2>
-        <p className="text-center text-sm md:text-xl font-normal leading-relaxed max-w-xl">
-          تدريب عملي على الإتزان فى المشاعر الحميمية الجنسية + جلسات علاجية
-          جماعية للإضطرابات الشعورية والسلوكية والأمراض العضوية
+        <p className="text-center text-sm md:text-xl font-normal leading-relaxed max-w-2xl">
+          كل يوم تضيعه بدون أن تصل للاتزان والجمال والمتعة الحقيقية في العلاقة
+          الجنسية الحميمية هو خسارة كبيرة .. اغتنم الفرصة الآن وانضم إلينا{" "}
         </p>
-        <button className="mt-4 flex justify-center items-center gap-1 rounded bg-white px-4 py-2 text-blue-800">
-          اشترك الان
-        </button>
+        <a href="#subscribe">
+          <button className="mt-4 flex justify-center items-center gap-1 rounded bg-white px-4 py-2 text-blue-800">
+            اشترك الان
+          </button>
+        </a>
       </div>
     </div>
   );
