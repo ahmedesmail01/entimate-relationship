@@ -8,7 +8,7 @@ const SubscribeSec = () => {
       price: "$100",
       discount: "$300 ",
       giftOne: "احصل على ٤ حلقات مسجلة ",
-      giftTwo: "9 لقاءات جماعية مباشرة مع الدكتور احمد الدملاوي",
+      giftTwo: "٩ لقاءات جماعية مباشرة مع الدكتور احمد الدملاوي",
       link: "https://mtnlive.mtninstitute.net/en/register",
     },
     {
@@ -16,7 +16,7 @@ const SubscribeSec = () => {
       price: "$270",
       discount: "$300  ",
       giftOne: "احصل على ٤ حلقات مسجلة ",
-      giftTwo: "3 لقاءات جماعية مباشرة مع الدكتور احمد الدملاوي",
+      giftTwo: "٣ لقاءات جماعية مباشرة مع الدكتور احمد الدملاوي",
       link: "https://mtnlive.mtninstitute.net/en/register",
     },
     {
@@ -39,7 +39,10 @@ const SubscribeSec = () => {
     },
   ];
   return (
-    <div id="subscribe" className="relative overflow-hidden bg-[#1b1b1b]  flex flex-col lg:pt-[80px] lg:pb-[96px] lg:px-[160px] justify-center text-center items-center z-10">
+    <div
+      id="subscribe"
+      className="relative overflow-hidden bg-[#1b1b1b]  flex flex-col lg:pt-[80px] lg:pb-[96px] lg:px-[160px] justify-center text-center items-center z-10"
+    >
       <Image
         src={relBack}
         alt="image"
@@ -50,40 +53,44 @@ const SubscribeSec = () => {
         alt="image"
         className="absolute bottom-0 left-0 lg:left-[160px]"
       />
-      <h1 className="text-white mt-8  text-xl  lg:text-[47px] font-bold leading-[normal] text-center lg:mb-[10px]">
+      <h1 className="text-white mt-8  text-xl [font-family:--font-tajwal] lg:text-[47px] font-bold leading-[normal] text-center lg:mb-[10px]">
         اشترك الأن{" "}
       </h1>
-      <p className="text-white mb-10 text-center [font-family:Tajawal] text-lg font-normal leading-7">
+      <p className="text-white mb-10 text-center [font-family:--font-tajwal] text-lg font-normal leading-7">
         أختر خطة الاشتراك الخاصة بك الأن
       </p>
       <div className="flex flex-col lg:flex-row-reverse gap-4">
         {subscriptions.map((subscription, idx) => (
           <div
             key={idx}
-            className="w-[300px] z-10 p-4 my-4 text-center bg-white rounded-lg shadow-sm  border-2 border-[#4440ff]"
+            className="w-[300px] h-[355px] flex flex-col justify-between z-10 p-4 my-4 text-center bg-white rounded-lg shadow-sm  border-2 border-[#4440ff]"
           >
-            <h2 className="self-stretch mb-6 text-[#353535] text-center font-[pnu] text-[32px] font-bold leading-[160%]">
+            <h2 className="self-stretch mb-6 text-[#353535] text-center [font-family:--font-tajwal] text-[28px] font-bold leading-[160%]">
               {subscription.title}
             </h2>
-            <p className="self-stretch text-[color:var(--Gray-900,#1D2026)] text-center font-[pnu] text-[32px] font-bold leading-8">
+            <p className="self-stretch text-[color:var(--Gray-900,#1D2026)] text-center [font-family:--font-inter] text-[32px] font-bold leading-8">
               {subscription.price}
             </p>
-            <p className="self-stretch mb-6 line-through text-[color:var(--Gray-500,#8C94A3)] text-center [font-family:Inter] text-base font-normal leading-6 ">
+            <p className="self-stretch mb-2 line-through text-[color:var(--Gray-500,#8C94A3)] text-center [font-family:--font-inter] text-base font-normal leading-6 ">
               {subscription.discount}
             </p>
-            <p className="flex flex-col justify-center flex-[1_0_0] self-stretch text-[#636363] text-center [font-family:PNU] text-[13px] font-bold leading-8">
+            <p className="flex flex-col justify-center flex-[1_0_0] self-stretch text-[#636363] text-center [font-family:--font-pnu] text-[13px] font-bold leading-8">
               {subscription.giftOne}
             </p>
-            <p className="flex flex-col justify-center flex-[1_0_0] self-stretch text-[#636363] text-center [font-family:PNU] text-[13px] font-bold leading-8">
+            <p className="flex flex-col justify-center flex-[1_0_0] self-stretch text-[#636363] text-center [font-family:--font-pnu] text-[13px] font-bold leading-8">
               {subscription.giftTwo}
             </p>
             <a
               href={subscription.link}
               target="_blank"
-              className="flex text-white h-[56px] font-[pnu] justify-center items-center gap-3 self-stretch [background:#4440FF] px-8 py-0 rounded-lg"
+              className="flex text-white h-[56px] [font-family:--font-cairo] justify-center items-center gap-3 self-stretch [background:#4440FF] px-8 py-0 rounded-lg"
             >
               اشترك الأن
             </a>
+            <p className="text-[10px] pt-2">
+              <span className="text-red-500">ملاحظة</span> : البرنامج عبارة عن 4
+              لقاءات/ شهر (أونلاين)
+            </p>
           </div>
         ))}
       </div>

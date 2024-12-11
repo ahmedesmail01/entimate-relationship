@@ -13,25 +13,39 @@ const ForWhoSec = () => {
           <div className="flex items-center gap-4 w-full md:w-[calc(50%-16px)]">
             <Image src={rounded} alt="dot" className="w-[40px] lg:w-[58px]" />
             <p className="flex-1  text-right text-sm lg:text-lg font-medium leading-[160%] text-[rgba(20,19,19,0.82)]">
-              أى ذكر وأنثى متجوزين وعندهم مشاكل فى علاقتهم العاطفية الجنسية
+              كل ذكر وأنثى يعانون من مشاكل في علاقتهم الجنسية الحميمية{" "}
             </p>
           </div>
           <div className="flex items-center gap-4 w-full md:w-[calc(50%-16px)]">
             <Image src={rounded} alt="dot" className="w-[40px] lg:w-[58px]" />
             <p className="flex-1 text-right text-sm lg:text-lg font-medium leading-[160%] text-[rgba(20,19,19,0.82)]">
-              أى ذكر وأنثى متجوزين وحابيين يطورا من علاقتهم العاطفية الجنسية
+              كل زوجين تقطعت بهم السبل إلى الطلاق بسبب مشاكل العلاقة الحميمية
+              ولا يجدون نافذة أمل{" "}
             </p>
           </div>
           <div className="flex items-center gap-4 w-full md:w-[calc(50%-16px)]">
             <Image src={rounded} alt="dot" className="w-[40px] lg:w-[58px]" />
             <p className="flex-1 text-right text-sm lg:text-lg font-medium leading-[160%] text-[rgba(20,19,19,0.82)]">
-              أى ذكر وأنثى مقبلين على الطلاق ومش شايفيين أن فيها أمل
+              كل زوجين يريدان أن يطورا من علاقتهما الحميمية ويعيشوها بمتعة أكبر{" "}
             </p>
           </div>
           <div className="flex items-center gap-4 w-full md:w-[calc(50%-16px)]">
             <Image src={rounded} alt="dot" className="w-[40px] lg:w-[58px]" />
             <p className="flex-1 text-right text-sm lg:text-lg font-medium leading-[160%] text-[rgba(20,19,19,0.82)]">
-              أى ذكر وأنثى مقبلين على الزواج (سواء للتوعية أو لعلاج مخاوفهم)
+              كل ذكر وأنثى مقبلين على الزواج{" "}
+            </p>
+          </div>
+          <div className="flex items-center gap-4 w-full md:w-[calc(50%-16px)]">
+            <Image src={rounded} alt="dot" className="w-[40px] lg:w-[58px]" />
+            <p className="flex-1 text-right text-sm lg:text-lg font-medium leading-[160%] text-[rgba(20,19,19,0.82)]">
+              كل ذكر وأنثى يحبون أن يكونوا أكثر وعيا بذاتهم واحتياجاتهم في
+              العلاقة الحميمية الجنسية{" "}
+            </p>
+          </div>
+          <div className="flex items-center gap-4 w-full md:w-[calc(50%-16px)]">
+            <Image src={rounded} alt="dot" className="w-[40px] lg:w-[58px]" />
+            <p className="flex-1 text-right text-sm lg:text-lg font-medium leading-[160%] text-[rgba(20,19,19,0.82)]">
+              كل ذكر وأنثى متخوفين من الزواج او من العلاقة العاطفية الجنسية
             </p>
           </div>
         </div>
@@ -42,10 +56,10 @@ const ForWhoSec = () => {
           </button>
         </a>
       </div>
-      <p className="mt-8 text-center  text-sm font-semibold leading-[160%] text-[rgba(39,39,39,0.82)] lg:mt-[48px] lg:text-2xl">
+      {/* <p className="mt-8 text-center  text-sm font-semibold leading-[160%] text-[rgba(39,39,39,0.82)] lg:mt-[48px] lg:text-2xl">
         أى يوم بيضيع عليك /عليكِ وانتو مش عارفين ازاى توصلوا لهذا الجمال فى
         العلاقة العاطفية والجنسية وتعيشها بإتزان ومتعة، فهو يوم خسارة
-      </p>
+      </p> */}
     </div>
   );
 };

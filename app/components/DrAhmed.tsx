@@ -17,7 +17,7 @@ const DrAhmed = () => {
           {data?.map((item, index) => (
             <div className="flex items-center gap-2 mb-2 lg:mb-4" key={index}>
               <span className="text-[#5DBCB8]">-</span>
-              <p className="self-stretch text-[#242424] text-right text-sm lg:text-xl font-normal leading-[160%]">
+              <p className="self-stretch text-[#242424] text-right text-sm lg:text-xl font-light leading-[160%]">
                 {item}
               </p>
             </div>
